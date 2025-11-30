@@ -12,10 +12,8 @@ fi
 
 LF=$(find $LOG_DIR -name "*.log")
 
-echo -e "\nLog files in the ${LOG_DIR} directory:"
-echo "$LF"
 echo "Report created at $(date '+%F %T')" >> $REPORT_OUT
-echo -e "Log files in the ${LOG_DIR} directory: \n $LF" >> $REPORT_OUT
+echo -e "\nLog files in the ${LOG_DIR} directory: \n$LF" >> $REPORT_OUT
 
 for file in $LF; do
     echo -e "\nAnalyzing file: $file"
