@@ -4,3 +4,29 @@ Log files in the ./logs directory:
 Number of 'INFO' entries: 1040 in ./logs/Hadoop_2k.log
 Number of 'WARN' entries: 808 in ./logs/Hadoop_2k.log
 Number of 'ERROR' entries: 151 in ./logs/Hadoop_2k.log
+===============================
+Log Analysis Report
+Report created at 2025-12-01 23:30:55
+
+Log files in the ./logs directory: 
+./logs/Hadoop_2k.log
+Number of 'INFO' entries: 1040 in ./logs/Hadoop_2k.log
+Number of 'WARN' entries: 808 in ./logs/Hadoop_2k.log
+Number of 'ERROR' entries: 151 in ./logs/Hadoop_2k.log
+============================
+Logs that fall outside the common error logs:
+2015-10-18 18:06:26,029 FATAL [IPC Server handler 13 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Task: attempt_1445144423722_0020_m_000002_0 - exited : java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost
+2015-10-18 18:06:28,217 FATAL [IPC Server handler 4 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Task: attempt_1445144423722_0020_m_000001_0 - exited : java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost
+===============================
+Log Analysis Report
+Report created at 2025-12-01 23:31:50
+
+Log files in the ./logs directory: 
+  - ./logs/Hadoop_2k.log
+Number of 'INFO' entries: 1040 in ./logs/Hadoop_2k.log
+Number of 'WARN' entries: 808 in ./logs/Hadoop_2k.log
+Number of 'ERROR' entries: 151 in ./logs/Hadoop_2k.log
+============================
+Logs that fall outside the common error logs:
+2015-10-18 18:06:26,029 FATAL [IPC Server handler 13 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Task: attempt_1445144423722_0020_m_000002_0 - exited : java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost
+2015-10-18 18:06:28,217 FATAL [IPC Server handler 4 on 62270] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Task: attempt_1445144423722_0020_m_000001_0 - exited : java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost
